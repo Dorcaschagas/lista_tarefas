@@ -91,7 +91,7 @@ hr{
     text-transform: capitalize;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 input{
