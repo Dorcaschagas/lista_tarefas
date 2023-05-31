@@ -6,10 +6,14 @@
     box-sizing: border-box;
 }
 
-:root {
-    /* width: 62.5%; */
+:root{
+    width: 62.5%;
+    margin: auto;
 }
 
+main, h1{
+    width: 23rem;
+}
 body {
     background-color: rgba(0, 200, 255, 0.6);
     display: flex;
@@ -17,21 +21,23 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Vibur', cursive;
+    padding: 1rem;
 }
-
 .principal {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    gap: .8rem;
 }
 
-
+hr{
+    border-color:rgba(255, 192, 203, 0.788);
+}
 
 .title {
     margin: .5rem;
-    background-color: white;
-    box-shadow: inset 1px 0px 5px 1px #000000;
-    width: 24.2rem;
+    background-color: rgba(255, 192, 203, 0.788);
+    box-shadow: inset 1px 0px 5px 1px #1767d6;
     text-align: center;
     color: black;
     border-radius: 1rem;
@@ -42,7 +48,8 @@ body {
     border: none;
     margin: 0.1rem;
     width: 20.8rem;
-    box-shadow: inset 1px 0px 5px 1px #000000;
+    height: 2.5rem;
+    box-shadow: inset 1px 0px 5px 1px #1767d6;
     text-align: center;
     font-size: 1rem;
     font-family: 'Vibur', cursive;
@@ -50,8 +57,8 @@ body {
 }
 
 .button {
-    box-shadow: inset 1px 0px 5px 1px #000000;
-    background-color: pink;
+    box-shadow: inset 1px 0px 5px 1px #1767d6;
+    background-color: rgba(255, 192, 203, 0.788);
     border: none;
     font-size: 2rem;
     font-weight: 500;
@@ -62,8 +69,7 @@ body {
 }
 
 .button:active {
-    box-shadow: 1px 1px 1px 1px #000000;
-
+    box-shadow: 1px 1px 1px 1px #1963c4;
 }
 
 #lista {
@@ -76,8 +82,8 @@ body {
 
 .li {
     margin: .1rem;
-    box-shadow: inset 1px 0px 5px 1px #000000;
-    width: 20.5rem;
+    box-shadow: inset 1px 0px 5px 1px #ce5fbd;
+    width: 23rem;
     border-radius: 5rem 0rem 0rem 5rem ;
     height: 1.9rem;
     display: flex;
@@ -91,7 +97,8 @@ body {
 input{
     display: none;
     display: inline-block;
-    background-color: #ddd;
+    background-color: rgba(255, 192, 203, 0.788);
+
     width: 2rem;
     height: 1.9rem;
     border-radius: 5rem;
