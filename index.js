@@ -1,3 +1,11 @@
+document.addEventListener('keypress', function(e){
+    if(e.key === 'Enter'){
+        const btn = document.getElementById('button')
+
+        btn.click()
+    }
+
+})
 
 function adicionar (){
 
@@ -10,6 +18,7 @@ function adicionar (){
     }
 
     list += "<li class='li'><input class='check' type='checkbox' id='myCheckbox'><label for='myCheckbox'>" + text + "</label></li>";
+
    
     document.getElementById('lista').innerHTML = list;
 
