@@ -140,7 +140,7 @@ input[type=checkbox]:checked+label {
     padding: .5rem;
     background-color: transparent;
     box-shadow: inset 1px 0px 5px 1px #ce5fbd;
-    border: none;
+    border-color: blue;
     font-family: 'vibur', cursive;
     font-weight: 600;
     color: blue;
@@ -153,7 +153,7 @@ input[type=checkbox]:checked+label {
     padding: .5rem;
     background-color: transparent;
     box-shadow: inset 1px 0px 5px 1px #ce5fbd;
-    border: none;
+    border-color: blue;
     font-family: 'vibur', cursive;
     font-weight: 600;
     color: blue;
