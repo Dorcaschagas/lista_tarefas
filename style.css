@@ -148,7 +148,6 @@ input[type=checkbox]:checked+label {
 }
 
 #organizar:hover{
-    content: "mudei";
     border-radius: 10rem;
     width: 100%;
     padding: .5rem;
