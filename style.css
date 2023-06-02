@@ -126,3 +126,37 @@ input[type=checkbox]:checked+label {
     text-decoration: line-through;
     border-radius: 5px;
 }
+
+.meio{
+    display: flex;
+    flex-direction: column;
+}
+
+#organizar{
+    
+    align-self: flex-end;
+    border-radius: 10rem;
+    width: 10%;
+    padding: .5rem;
+    background-color: transparent;
+    box-shadow: inset 1px 0px 5px 1px #ce5fbd;
+    border: none;
+    font-family: 'vibur', cursive;
+    font-weight: 600;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+#organizar:hover{
+    content: "mudei";
+    border-radius: 10rem;
+    width: 100%;
+    padding: .5rem;
+    background-color: transparent;
+    box-shadow: inset 1px 0px 5px 1px #ce5fbd;
+    border: none;
+    font-family: 'vibur', cursive;
+    font-weight: 600;
+    color: blue;
+    font-size: 1.2rem;
+}
